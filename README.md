@@ -13,8 +13,8 @@ I used a Playduino One Arduino clone, that I had lying around, and a SD card shi
 ## Software
 I took 3 steps in the recovery process.
 
-### cardinfo
-The SD card library in the Arduino IDE contains an example called _cardinfo_. It connects to the card, and gets information such as size, filesystem type, and a list of files on the card.
+### CardInfo
+The SD card library in the Arduino IDE contains an example called `CardInfo`. It connects to the card, and gets information such as size, filesystem type, and a list of files on the card.
 
 That worked, so I kept going.
 
