@@ -28,7 +28,7 @@ for line in fileinput.input():
 			error_lines += 1
 			zeroLine()
 		else:
-			for i in range(0,512,2):
+			for i in range(0,1024,2):
 				output.write( chr( int (line[i:i+2], 16 ) ) )
 				normal_lines += 1
 
