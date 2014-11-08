@@ -20,7 +20,7 @@ while (True):
 	print "Name: " + name
 	print "Size: " + str(size)
 	print "Length: " + str(len(second))
-	if len(second) - 2 <> size * 2:
+	if len(second) - 1 <> size * 2:
 		print "Size mismatch. Skipping."
 	else:
 		print "Size matches, writing file..."
